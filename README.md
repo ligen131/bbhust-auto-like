@@ -1,29 +1,26 @@
-# ts-cli
+# BBHust-Auto-Like
 
-This is a template repo for TypeScript project.
+A simple script for BBHust to automatically like every new posts.
+
+https://bb.hust.online
 
 ## Usage
 
+Copy `config/config-default.json` to `config/config.json`, and fill in your student ID and password.
+
+```json
+{
+  "person_id": "U202123456",
+  "password": "your-password-here"
+}
+```
+
+Then run
+
 ```shell
 $ npm i
-$ npx husky install
+$ npn run start
 ```
-
-`commit` using
-
-```shell
-$ npm run commit
-# OR
-$ git cz
-```
-
-## References
-
-<https://blog.csdn.net/yyyy11119/article/details/120326084>
-
-<https://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html>
-
-<https://juejin.cn/post/7099664990499504159>
 
 ## LICENSE
 
